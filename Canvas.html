@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<!-- head -->
+	<head>
+		<meta charset="UTF-8" />
+		<title>Rohan V. Waghmode : Render To Texture</title>
+	</head>
+
+	<!-- body -->
+	<body onload="main()">
+		<div class = "center">
+		<p class = "text">Hello from Rohan V. Waghmode to nCircle Tech PVT. LTD. and CCT JAPAN.
+			<br>This is one of Demo regarding Render to Texture. With the help of Frame Buffer Object I have implimented two different demos in single demo; all Thanks to the 'gl.bindFramebuffer()'.
+			<br><br>§ Press 'F/f' to Toggle between Window Mode and FullScreen Mode.
+			<br>§ Press 'A/a' to Start/Stop Animation.
+			<br>§ Press 'R/r' to Change the Rotation of Light on sphere.
+			
+		</p>
+		</div>
+
+			<!--font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;-->
+			<!--font-style: italic;-->
+			<!--font-weight: bold;-->
+			<style type = "text/css">
+			
+			.center{
+				margin:0 auto;
+			}
+
+			.text{
+				
+				margin:0 auto;
+				width: 100%;
+				text-align: justify;
+				color: #000;
+				font-size: larger;
+				position: absolute;
+				-webkit-animation: colorchange 5s infinite alternate;
+
+			}
+				@-webkit-keyframes colorchange{
+					0%{
+						color:#9400D3;
+					}
+					14%{
+						color:#4B0082;
+					}
+					28%{
+						color:#0000FF;
+					}
+					42%{
+						color:#00FF00;
+					}
+					56%{
+						color:#FFFF00;
+					}
+					70%{
+						color:#FF7F00;
+					}
+					84%{
+						color:#FF0000;
+					}
+					100%{
+						color:#9400D3;
+					}
+				}
+
+			</style>
+
+		<!--
+		<p style="font-size: larger;text-align:justify;color:black;">Hello from Rohan V. Waghmode to 'EA'.
+			<br>This is one of Demo regarding Render to Texture. With the help of Frame Buffer Object I have implimented two different demos in single demo; all Thanks to the 'gl.bindFramebuffer()'.</p>
+		<p style="font-size: larger;text-align:justify;color:crimson;">Press 'F/f' to Toggle between Window Mode and FullScreen Mode.</p>
+      		<p style="font-size: larger;text-align:justify;color:blue;">Press 'A/a' to Start/Stop Animation.</p>
+		<p style="font-size: larger;text-align:justify;color:chartreuse;">Press 'R/r' to Change the Rotation of Light on sphere.</p>
+		-->
+		<canvas id="AMC" width="800" height="600">
+			Your Browser Does Not Support HTML5 Canvas Element.
+		</canvas>
+
+		<!-- script -->
+		<script src="gl-matrix-min.js"></script>
+		<script src="Sphere.js"></script>
+		<script src="Mesh.js"></script>
+		<script src="Canvas.js"></script>
+		
+		<div class = "LINK">
+			<p class = "link">Hello from Rohan V. Waghmode to nCircle Tech PVT. LTD. and CCT JAPAN.
+				<br>Please refer my GitHub for other assignment that I have done in OpenGL, OpenGL ES, Direct3D10, WebGL on Windows, Linux, Android, Web, MacOS and iOS Platforms.
+				<br><a href="https://github.com/inhacpromac/Real_Time_Rendering_2.0_2018-2020_Assignments">GitHub</a>
+				
+			</p>
+			</div>
+	
+				<!--font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;-->
+				<!--font-style: italic;-->
+				<!--font-weight: bold;-->
+				<style type = "text/css">
+				
+				.LINK{
+					margin:0 auto;
+				}
+	
+				.link{
+					
+					margin:0 auto;
+					width: 100%;
+					text-align: justify;
+					color: #000;
+					font-size: larger;
+					position: absolute;
+					-webkit-animation: colorchange 5s infinite alternate;
+	
+				}
+					@-webkit-keyframes colorchange{
+						0%{
+							color:#9400D3;
+						}
+						14%{
+							color:#4B0082;
+						}
+						28%{
+							color:#0000FF;
+						}
+						42%{
+							color:#00FF00;
+						}
+						56%{
+							color:#FFFF00;
+						}
+						70%{
+							color:#FF7F00;
+						}
+						84%{
+							color:#FF0000;
+						}
+						100%{
+							color:#9400D3;
+						}
+					}
+	
+				</style>
+		<!--
+		<p style="font-size: larger;">
+			<br>Please refer my GitHub for other assignment that I have done in OpenGL, OpenGL ES, Direct3D10, WebGL on Windows, Linux, Android, Web, MacOS and iOS Platforms.
+			<br><a href="https://github.com/inhacpromac/Real_Time_Rendering_2.0_2018-2020_Assignments">GitHub</a>
+		</p>
+		-->
+	</body>
+
+</html>
