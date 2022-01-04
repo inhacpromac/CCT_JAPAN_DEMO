@@ -127,7 +127,7 @@ var materialDiffuse = [
         [0.5, 0.5, 0.4]
     ]
 ];
-
+ 
 var materialSpecular = [
     [
         // Column 1
