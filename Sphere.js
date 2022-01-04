@@ -127,4 +127,4 @@ function makeSphere(sphereMesh, fRadius, iSlices, iStacks)
     }
 
     sphereMesh.prepareToDraw();
-}
+} 
